@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/public_html/
+    - export DEPLOYPATH=/home/kevinbro/public_html/
     - /bin/cp /repositories/kevinbrown.xyz/index.html $DEPLOYPATH
