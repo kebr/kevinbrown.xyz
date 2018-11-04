@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/www
-    - /bin/cp index.html $DEPLOYPATH
+    - /bin/rm -f /www/index.html
+    - /bin/cp /repositories/kevinbrown.xyz/index.html /www/
